@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.octodex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.octocat {
+  /*display: inline-block;*/
+  width: 31vw;
+}
+
+.octocat > a {
+  border: solid 1px #CACACA;
+  display: inline-flex;
+  border-radius: 3px;
+  /* heigth: 100%; */
+}
+
+
+ .octocat > a::after {
+   content: '';
+   height: 0;
+   width: 0;
+   border-top: solid 8px #CACACA;
+   border-left: solid 8px transparent;
+   border-right: solid 8px transparent;
+
+
+   position: relative;
+   top: 30.85vw ;
+   right: 20px;
+ }
+
+
+
+ .image-footer {
+     align-items: center;
+    display: flex;
+     justify-content: space-between;
+     border-bottom: solid 1px #CACACA;
+   padding: 10px 0 11px;
+     margin-bottom: 10px;
+ }
+
+.authors > li > a{
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+.image-caption{
+    color: #777777;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+}
+
+.image-caption > a{
+    color: #333333;
+}
+
+.image-caption > a{
+    padding: 0 3px;
+}
+
+.image-number{
+    font-weight: bolder;
+    color: #CACACA;
+}
+
+ .image-number::before {
+     color: #CACACA;
+   content: '#';
+ }
+
+
+.authors > li{
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+ .authors > li > a > img{
+     width: 27px;
+ }
+/* *{
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.octocat {
+  display: inline-block;
+  width: 30%;
+}
+
+.octocat > a {
+  border: solid 1px #CACACA;
+  display: inline-block;
+  border-radius: 3px;
+  /* heigth: 100%; */
+/* }
+ .octocat > a::after {
+   content: '';
+   height: 0;
+   width: 0;
+   border-top: solid 10px #CACACA;
+   border-left: solid 10px transparent;
+   border-right: solid 10px transparent;
+
+
+   position: absolute;
+   top: 100%;
+   right: 1%;
+ }
+
+ .image-footer {
+   border-
+   padding
+ }
+
+ .image-number::before {
+   content: '#';
+ } */
